@@ -132,9 +132,21 @@ if selected == 'Portfolio Projects':
     unsafe_allow_html=True)
     st.write("---")
 
-
-
     # 6
+    st.write('<p style="font-size:28px; color:black;">A/B Testing Project for Montana S. University </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:20px; color:black;">Python (Pandas) </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">In this project, we analyzed an AB-test to check CTR for different text on a button on the website of a University Library in Montana.</p>', unsafe_allow_html=True)
+    # button
+    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Montana%20S.%20University%20A-B%20Testing%20Project'
+    st.markdown(f'''
+    <a href={url}><button style="background-color:#FAFAFA;">View Project</button></a>
+    ''',
+    unsafe_allow_html=True)
+    st.write("---")
+
+
+
+    # 7
     st.write('<p style="font-size:28px; color:black;">House Prices Prediction</p>', unsafe_allow_html=True)
     st.write('<p style="font-size:20px; color:black;">Python (Scikit-Learn, Pandas) </p>', unsafe_allow_html=True)
     st.write('<p style="font-size:16px; color:grey;">In this project, I created  a prediction  model using Supervised machine-learning algorithm to predict whether a house is expensive or not.</p>', unsafe_allow_html=True)
@@ -148,7 +160,7 @@ if selected == 'Portfolio Projects':
 
 
 
-    # 6
+    # 8
     st.write('<p style="font-size:28px; color:black;">Youtube Web Scraping - EDA Project</p>', unsafe_allow_html=True)
     st.write('<p style="font-size:20px; color:black;">Python (Pandas, Seaborn, Matplotlib) </p>', unsafe_allow_html=True)
     st.write('<p style="font-size:16px; color:grey;">The purpose of this project is to gain some insights that might be useful to new creators. I will explore the statistics of a successful data science Youtube channel.</p>', unsafe_allow_html=True)
