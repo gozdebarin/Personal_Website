@@ -103,7 +103,7 @@ if selected == 'Portfolio Projects':
 
     # 4
     st.write('<p style="font-size:28px; color:black;">Interactive Dashboard Projects</p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:20px; color:black;">Python (Scikit-Learn, Pandas) </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:20px; color:black;">Tableau </p>', unsafe_allow_html=True)
     st.write('<p style="font-size:16px; color:grey;">I love creating dynamic dashboards that help people see and understand their data using Tableau Business Intelligence tool. </p>', unsafe_allow_html=True)
     st.write('<p style="font-size:16px; color:grey;">You can access my interactive dashboards from this link.</p>', unsafe_allow_html=True)
     # button
