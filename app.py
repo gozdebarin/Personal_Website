@@ -56,7 +56,7 @@ if selected == 'Portfolio Projects':
     st.image(img_info3)
     st.write("---")
 
-
+    # 1
     st.write('<p style="font-size:28px; color:black;">Heart Attack Prediction App</p>', unsafe_allow_html=True)
     st.write('<p style="font-size:20px; color:black;">Python (Scikit-Learn, Pandas, Matlotlib, Plotly) | Streamlit </p>', unsafe_allow_html=True)
     st.write('<p style="font-size:16px; color:grey;">In this project, my aim was to identify the heart attack risk for people, based on their medical attributes. Therefore I developed an App, that quickly calculates heart attack risk to help healthcare providers.</p>', unsafe_allow_html=True)
@@ -70,6 +70,8 @@ if selected == 'Portfolio Projects':
     st.write("---")
 
 
+
+    # 2
     st.write('<p style="font-size:28px; color:black;">Business Analysis & Data Exploration</p>', unsafe_allow_html=True)
     st.write('<p style="font-size:20px; color:black;">SQL | Tableau </p>', unsafe_allow_html=True)
     st.write('<p style="font-size:16px; color:grey;">My aim was to explore in-depth a real world dataset using MySQL and also to answer the business questions.</p>', unsafe_allow_html=True)
@@ -84,6 +86,22 @@ if selected == 'Portfolio Projects':
 
 
 
+    # 3
+    st.write('<p style="font-size:28px; color:black;">Data Cleaning and Storytelling</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:20px; color:black;">Python (Pandas, Seaborn, Matplotlib)</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">The main goal of this project is to implement the data cleaning and data quality process, which includes: Evaluating and cleaning data to make it usable, evaluating the impact of discounts on sales/revenue, make a recommendation for more discounts. </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">I applied a variety of techniques, including table joins, case statements, aggregation functions.</p>', unsafe_allow_html=True)
+    # button
+    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Python%20Data%20Cleaning%20and%20Storytelling%20Project'
+    st.markdown(f'''
+    <a href={url}><button style="background-color:#FAFAFA;">View Project</button></a>
+    ''',
+    unsafe_allow_html=True)
+    st.write("---")
+
+
+
+    # 4
     st.write('<p style="font-size:28px; color:black;">Interactive Dashboard Projects</p>', unsafe_allow_html=True)
     st.write('<p style="font-size:20px; color:black;">Python (Scikit-Learn, Pandas) </p>', unsafe_allow_html=True)
     st.write('<p style="font-size:16px; color:grey;">I love creating dynamic dashboards that help people see and understand their data using Tableau Business Intelligence tool. </p>', unsafe_allow_html=True)
@@ -98,7 +116,7 @@ if selected == 'Portfolio Projects':
 
 
 
-
+    # 5
     st.write('<p style="font-size:28px; color:black;">House Prices Prediction</p>', unsafe_allow_html=True)
     st.write('<p style="font-size:20px; color:black;">Python (Scikit-Learn, Pandas) </p>', unsafe_allow_html=True)
     st.write('<p style="font-size:16px; color:grey;">In this project, I created  a prediction  model using Supervised machine-learning algorithm to predict whether a house is expensive or not.</p>', unsafe_allow_html=True)
