@@ -70,12 +70,12 @@ if selected == 'Portfolio Projects':
     st.write("---")
 
 
-    st.write('<p style="font-size:28px; color:black;">Publications Data Exploration</p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:20px; color:black;">SQL </p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">My aim was to explore in-depth the Publications dataset using MySQL and also to answer the business questions.</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:28px; color:black;">Business Analysis & Data Exploration</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:20px; color:black;">SQL | Tableau </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">My aim was to explore in-depth a real world dataset using MySQL and also to answer the business questions.</p>', unsafe_allow_html=True)
     st.write('<p style="font-size:16px; color:grey;">I applied a variety of techniques, including table joins, case statements, aggregation functions.</p>', unsafe_allow_html=True)
     # button
-    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/SQL%20Data%20Driven%20Businesses%20Project'
+    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/SQL%20Business%20Analysis-Data%20Exploration'
     st.markdown(f'''
     <a href={url}><button style="background-color:#FAFAFA;">View Project</button></a>
     ''',
