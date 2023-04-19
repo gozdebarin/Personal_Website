@@ -148,6 +148,21 @@ if selected == 'Portfolio Projects':
 
 
 
+    # 6
+    st.write('<p style="font-size:28px; color:black;">Youtube Web Scraping - EDA Project</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:20px; color:black;">Python (Pandas, Seaborn, Matplotlib) </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">The purpose of this project is to gain some insights that might be useful to new creators. I will explore the statistics of a successful data science Youtube channel.</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">The steps of the project are obtaining video metadata for the channel via Youtube API, preprocessing the data and designing additional features for analysis, and performing exploratory data analysis.</p>', unsafe_allow_html=True)
+    # button
+    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Youtube%20Web%20Scraping%20-%20EDA%20Project'
+    st.markdown(f'''
+    <a href={url}><button style="background-color:#FAFAFA;">View Project</button></a>
+    ''',
+    unsafe_allow_html=True)
+    st.write("---")
+
+
+
 
 
 # 2) About Me Section
