@@ -117,6 +117,21 @@ if selected == 'Portfolio Projects':
 
 
     # 5
+    st.write('<p style="font-size:28px; color:black;">Gans Data Engineering & Data Pipeline</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:20px; color:black;">Python (Pandas, Seaborn) </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">I love creating dynamic dashboards that help people see and understand their data using Tableau Business Intelligence tool. </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">You can access my interactive dashboards from this link.</p>', unsafe_allow_html=True)
+    # button
+    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Gans%20Data%20Engineering%20Project'
+    st.markdown(f'''
+    <a href={url}><button style="background-color:#FAFAFA;">View Projects</button></a>
+    ''',
+    unsafe_allow_html=True)
+    st.write("---")
+
+
+
+    # 6
     st.write('<p style="font-size:28px; color:black;">House Prices Prediction</p>', unsafe_allow_html=True)
     st.write('<p style="font-size:20px; color:black;">Python (Scikit-Learn, Pandas) </p>', unsafe_allow_html=True)
     st.write('<p style="font-size:16px; color:grey;">In this project, I created  a prediction  model using Supervised machine-learning algorithm to predict whether a house is expensive or not.</p>', unsafe_allow_html=True)
