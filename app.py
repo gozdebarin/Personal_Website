@@ -119,8 +119,11 @@ if selected == 'Portfolio Projects':
     # 5
     st.write('<p style="font-size:28px; color:black;">Gans Data Engineering & Data Pipeline</p>', unsafe_allow_html=True)
     st.write('<p style="font-size:20px; color:black;">Python (Pandas, Seaborn) </p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">I love creating dynamic dashboards that help people see and understand their data using Tableau Business Intelligence tool. </p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">You can access my interactive dashboards from this link.</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">The main objective of my project is to learn the data engineering process which contains: </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">- Collect data: data collection via web scraping or Application Programming Interfaces (APIs)</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">- Set up a local database on MySQL: a database creation in MySQL for data storage</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">- Create a Data Pipeline to the Cloud: use Amazon Web Services (AWS) to move the pipeline to the cloud</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">- Automate the Data Pipeline: automate the whole data collection and storage process</p>', unsafe_allow_html=True)
     # button
     url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Gans%20Data%20Engineering%20Project'
     st.markdown(f'''
