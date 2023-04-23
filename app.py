@@ -58,11 +58,11 @@ if selected == 'Portfolio Projects':
 
     # 1
     st.write('<p style="font-size:28px; color:black;">Heart Attack Prediction App</p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:20px; color:black;">Python (Scikit-Learn, Pandas, Matlotlib, Plotly) | Streamlit </p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">In this project, my aim was to identify the heart attack risk for people, based on their medical attributes. Therefore I developed an App, that quickly calculates heart attack risk to help healthcare providers.</p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">I created  a prediction  model using Supervised machine-learning algorithm, then I built a Web-Application using Streamlit framework.</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:20px; color:black;">Supervised Machine Learning | Python (Scikit-Learn, Pandas) | Streamlit </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">This machine learning project aims to identify peoples heart attack risk based on their medical attributes and to help healthcare providers.</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">I created  a prediction  model using Supervised Machine Learning algorithm, then I developed a Web-App using Streamlit framework.</p>', unsafe_allow_html=True)
     # button
-    url = 'https://github.com/gozdebarin/Heart_Attack_Prediction_App'
+    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Heart%20Attack%20Prediction%20App-Machine%20Learning'
     st.markdown(f'''
     <a href={url}><button style="background-color:#FAFAFA;">View Project</button></a>
     ''',
@@ -74,8 +74,8 @@ if selected == 'Portfolio Projects':
     # 2
     st.write('<p style="font-size:28px; color:black;">Business Analysis & Data Exploration</p>', unsafe_allow_html=True)
     st.write('<p style="font-size:20px; color:black;">SQL | Tableau </p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">My aim was to explore in-depth a real world dataset using MySQL and also to answer the business questions.</p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">I applied a variety of techniques, including table joins, case statements, aggregation functions.</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">In this project my aim was to explore in-depth a real world dataset using MySQL, and also to answer the business questions and visualize some of them using Tableau.</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">In SQL part, I applied a variety of techniques, including table joins, case statements, aggregation functions, and subqueries.</p>', unsafe_allow_html=True)
     # button
     url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/SQL%20Business%20Analysis-Data%20Exploration'
     st.markdown(f'''
@@ -86,13 +86,13 @@ if selected == 'Portfolio Projects':
 
 
 
-    # 3
-    st.write('<p style="font-size:28px; color:black;">Data Cleaning and Storytelling</p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:20px; color:black;">Python (Pandas, Seaborn, Matplotlib)</p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">The main goal of this project is to implement the data cleaning and data quality process, which includes: Evaluating and cleaning data to make it usable, evaluating the impact of discounts on sales/revenue, make a recommendation for more discounts. </p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">I applied a variety of techniques, including table joins, case statements, aggregation functions.</p>', unsafe_allow_html=True)
+      # 3
+    st.write('<p style="font-size:28px; color:black;">Heart Attack Exploratory Data Analysis (EDA)</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:20px; color:black;">Python (Plotly, Pandas, Seaborn, Matplotlib) </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">In this project my goal was to perform Exploratory Data Analysis using Heart Attack Dataset. </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">Firstly, I analyzed and explored the dataset then I created some enlightening visualizations using Python.</p>', unsafe_allow_html=True)
     # button
-    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Python%20Data%20Cleaning%20and%20Storytelling%20Project'
+    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/blob/main/Heart%20Attack%20Exploratory%20Data%20Analysis/README.md'
     st.markdown(f'''
     <a href={url}><button style="background-color:#FAFAFA;">View Project</button></a>
     ''',
@@ -101,10 +101,26 @@ if selected == 'Portfolio Projects':
 
 
 
+
     # 4
+    st.write('<p style="font-size:28px; color:black;">Eniac Data Cleaning & Storytelling</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:20px; color:black;">Python (Pandas, Seaborn, Matplotlib)</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">The main goal of this project is to implement the data cleaning and data quality process, which includes: </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">Evaluating and cleaning data to make it usable, evaluating the impact of discounts on sales/revenue, make a recommendation for more discounts. </p>', unsafe_allow_html=True)
+    # button
+    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Eniac%20Data%20Cleaning%20and%20Storytelling%20Project'
+    st.markdown(f'''
+    <a href={url}><button style="background-color:#FAFAFA;">View Project</button></a>
+    ''',
+    unsafe_allow_html=True)
+    st.write("---")
+
+
+
+    # 5
     st.write('<p style="font-size:28px; color:black;">Interactive Dashboard Projects</p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:20px; color:black;">Tableau </p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">I love creating dynamic dashboards that help people see and understand their data using Tableau Business Intelligence tool. </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:20px; color:black;">Tableau | Business Intelligence Tool</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">I love creating dynamic dashboards that help people see and understand their data using Tableau. These dashboards provides visibility at a glance, saves time and resources, improves decision making, simplifies performance checks.</p>', unsafe_allow_html=True)
     st.write('<p style="font-size:16px; color:grey;">You can access my interactive dashboards from this link.</p>', unsafe_allow_html=True)
     # button
     url = 'https://public.tableau.com/app/profile/gozdebarin'
@@ -115,27 +131,40 @@ if selected == 'Portfolio Projects':
     st.write("---")
 
 
-
-    # 5
-    st.write('<p style="font-size:28px; color:black;">Gans Data Engineering & Data Pipeline</p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:20px; color:black;">Python (Pandas, Seaborn) </p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">The main objective of my project is to learn the data engineering process which contains: </p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">- Collect data: data collection via web scraping or Application Programming Interfaces (APIs)</p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">- Set up a local database on MySQL: a database creation in MySQL for data storage</p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">- Create a Data Pipeline to the Cloud: use Amazon Web Services (AWS) to move the pipeline to the cloud</p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">- Automate the Data Pipeline: automate the whole data collection and storage process</p>', unsafe_allow_html=True)
+    # 6
+    st.write('<p style="font-size:28px; color:black;">House Prices Prediction</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:20px; color:black;">Supervised Machine Learning | Python (Scikit-Learn, Pandas) </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">In this project, I created  a prediction  model using Supervised Machine Learning algorithm to predict whether a house is expensive or not.</p>', unsafe_allow_html=True)
     # button
-    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Gans%20Data%20Engineering%20Project'
+    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/House%20Prices%20Prediction-Machine%20Learning'
     st.markdown(f'''
-    <a href={url}><button style="background-color:#FAFAFA;">View Projects</button></a>
+    <a href={url}><button style="background-color:#FAFAFA;">View Project</button></a>
     ''',
     unsafe_allow_html=True)
     st.write("---")
 
-    # 6
-    st.write('<p style="font-size:28px; color:black;">A/B Testing Project for Montana S. University </p>', unsafe_allow_html=True)
+
+    
+
+    # 7
+    st.write('<p style="font-size:28px; color:black;">Spotify Clustering Songs</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:20px; color:black;">Unsupervised Machine Learning | Python (Scikit-Learn, Pandas) </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">The purpose of this project is to cluster similar songs using K-means clustering algorithm and Spotipy API, thus automatically creating Spotify playlists.</p>', unsafe_allow_html=True)
+    # button
+    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Spotify%20Clustering%20Songs%20Unsupervised%20Machine%20Learning%20Project'
+    st.markdown(f'''
+    <a href={url}><button style="background-color:#FAFAFA;">View Project</button></a>
+    ''',
+    unsafe_allow_html=True)
+    st.write("---")
+
+
+
+
+    # 8
+    st.write('<p style="font-size:28px; color:black;">A/B Testing - Montana University Website Homepage </p>', unsafe_allow_html=True)
     st.write('<p style="font-size:20px; color:black;">Python (Pandas) </p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">In this project, we analyzed an AB-test to check CTR for different text on a button on the website of a University Library in Montana.</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">The main purpose of this project is to perform an A/B Test to check CTR(click-through rate) for different text on a button on the website of Montana S. University.</p>', unsafe_allow_html=True)
     # button
     url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Montana%20S.%20University%20A-B%20Testing%20Project'
     st.markdown(f'''
@@ -146,32 +175,58 @@ if selected == 'Portfolio Projects':
 
 
 
-    # 7
-    st.write('<p style="font-size:28px; color:black;">House Prices Prediction</p>', unsafe_allow_html=True)
+    # 9
+    st.write('<p style="font-size:28px; color:black;">Gans Data Engineering & Data Pipeline</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:20px; color:black;">Python (BeautifulSoup, Pandas, Seaborn), Requests (API) </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">The aim of this project is to collect data from external sources that can potentially help Gans to predict e-scooter movement. </p>', unsafe_allow_html=True)
+    # button
+    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Gans%20Data%20Engineering%20Project'
+    st.markdown(f'''
+    <a href={url}><button style="background-color:#FAFAFA;">View Projects</button></a>
+    ''',
+    unsafe_allow_html=True)
+    st.write("---")
+
+
+
+
+    # 10
+    st.write('<p style="font-size:28px; color:black;">Movie Recommender System </p>', unsafe_allow_html=True)
     st.write('<p style="font-size:20px; color:black;">Python (Scikit-Learn, Pandas) </p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">In this project, I created  a prediction  model using Supervised machine-learning algorithm to predict whether a house is expensive or not.</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">The main objective of this project will be to create 3 different recommender systems that give users from WBSFLIX relevant content to watch: Popularity Based Recommender, Item Based Recommender, User Based Recommender. </p>', unsafe_allow_html=True)
     # button
-    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/House%20Prices%20Prediction-Machine%20Learning'
+    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Movie%20Recommender%20System'
     st.markdown(f'''
-    <a href={url}><button style="background-color:#FAFAFA;">View Project</button></a>
+    <a href={url}><button style="background-color:#FAFAFA;">View Projects</button></a>
     ''',
     unsafe_allow_html=True)
     st.write("---")
 
 
 
-    # 8
-    st.write('<p style="font-size:28px; color:black;">Youtube Web Scraping - EDA Project</p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:20px; color:black;">Python (Pandas, Seaborn, Matplotlib) </p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">The purpose of this project is to gain some insights that might be useful to new creators. I will explore the statistics of a successful data science Youtube channel.</p>', unsafe_allow_html=True)
-    st.write('<p style="font-size:16px; color:grey;">The steps of the project are obtaining video metadata for the channel via Youtube API, preprocessing the data and designing additional features for analysis, and performing exploratory data analysis.</p>', unsafe_allow_html=True)
+
+    # 11
+    st.write('<p style="font-size:28px; color:black;">Interactive Excel Dashboard  </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:20px; color:black;">MS Excel </p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">I have created Dashboard using Excel to highlight the most important information and key performance indicators (KPIs) for Kevin Cookie Company.</p>', unsafe_allow_html=True)
+    st.write('<p style="font-size:16px; color:grey;">The dashboard is dynamic & interactive and adjusts depending on the country, months, and products selected via the slicer.</p>', unsafe_allow_html=True)
     # button
-    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Youtube%20Web%20Scraping%20-%20EDA%20Project'
+    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/MS%20Excel%20Interactive%20Dashboard'
     st.markdown(f'''
-    <a href={url}><button style="background-color:#FAFAFA;">View Project</button></a>
+    <a href={url}><button style="background-color:#FAFAFA;">View Projects</button></a>
     ''',
     unsafe_allow_html=True)
     st.write("---")
+   
+
+
+
+
+
+
+
+
+
 
 
 
