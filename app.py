@@ -123,7 +123,7 @@ if selected == 'Portfolio Projects':
     st.write('<p style="font-size:16px; color:grey;">I love creating dynamic dashboards that help people see and understand their data using Tableau. These dashboards provides visibility at a glance, saves time and resources, improves decision making, simplifies performance checks.</p>', unsafe_allow_html=True)
     st.write('<p style="font-size:16px; color:grey;">You can access my interactive dashboards from this link.</p>', unsafe_allow_html=True)
     # button
-    url = 'https://public.tableau.com/app/profile/gozdebarin'
+    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Tableau%20Data%20Visualization%20Projects'
     st.markdown(f'''
     <a href={url}><button style="background-color:#FAFAFA;">View Projects</button></a>
     ''',
