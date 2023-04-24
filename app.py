@@ -182,7 +182,7 @@ if selected == 'Portfolio Projects':
     # button
     url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Gans%20Data%20Engineering%20Project'
     st.markdown(f'''
-    <a href={url}><button style="background-color:#FAFAFA;">View Projects</button></a>
+    <a href={url}><button style="background-color:#FAFAFA;">View Project</button></a>
     ''',
     unsafe_allow_html=True)
     st.write("---")
@@ -197,7 +197,7 @@ if selected == 'Portfolio Projects':
     # button
     url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Movie%20Recommender%20System'
     st.markdown(f'''
-    <a href={url}><button style="background-color:#FAFAFA;">View Projects</button></a>
+    <a href={url}><button style="background-color:#FAFAFA;">View Project</button></a>
     ''',
     unsafe_allow_html=True)
     st.write("---")
@@ -213,7 +213,7 @@ if selected == 'Portfolio Projects':
     # button
     url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/MS%20Excel%20Interactive%20Dashboard'
     st.markdown(f'''
-    <a href={url}><button style="background-color:#FAFAFA;">View Projects</button></a>
+    <a href={url}><button style="background-color:#FAFAFA;">View Project</button></a>
     ''',
     unsafe_allow_html=True)
     st.write("---")
