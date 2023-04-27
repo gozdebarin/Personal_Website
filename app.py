@@ -62,7 +62,7 @@ if selected == 'Portfolio Projects':
     st.write('<p style="font-size:16px; color:grey;">This machine learning project aims to identify peoples heart attack risk based on their medical attributes and to help healthcare providers.</p>', unsafe_allow_html=True)
     st.write('<p style="font-size:16px; color:grey;">I created  a prediction  model using Supervised Machine Learning algorithm, then I developed a Web-App using Streamlit framework.</p>', unsafe_allow_html=True)
     # button
-    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Heart%20Attack%20Prediction%20App-Machine%20Learning'
+    url = 'https://github.com/gozdebarin/My_Portfolio_Projects/tree/main/Heart_Attack_Prediction_App'
     st.markdown(f'''
     <a href={url}><button style="background-color:#FAFAFA;">View Project</button></a>
     ''',
